@@ -1,0 +1,34 @@
+.nav {
+  background: #74eaee;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  top: 0;
+  font-size: 18px;
+}
+#link{
+    color:white;
+    text-decoration: none;
+}
+#link:hover{
+  color: black;
+  text-decoration:overline;
+}
+  
+.nav__title {
+  margin: 0px 30px;
+}
+.nav__item {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.nav__item img{
+  height: 40px;
+  width: 40px;
+  display: inline;
+  padding: auto;
+  margin-right: 10px;
+}
